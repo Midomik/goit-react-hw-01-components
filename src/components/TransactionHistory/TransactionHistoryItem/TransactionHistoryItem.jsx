@@ -1,5 +1,3 @@
-import css from '../TransactionHistory.module.css';
-
 export const TransactionHistoryItem = ({ key_id, type, amount, currency }) => {
   return (
     <tbody key={key_id}>
