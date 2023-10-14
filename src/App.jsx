@@ -1,16 +1,14 @@
 import { Profile } from 'components/Profile/Profile';
-import userData from './user.json';
+import userData from './components/data/user.json';
 
 import { Statistics } from 'components/Statistics/Statistics';
-import data from './data.json';
+import data from './components/data/data.json';
 
 import { FriendList } from 'components/FriendList/FriendList';
-import friendsData from './friends.json';
+import friendsData from './components/data/friends.json';
 
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
-import transactionData from './transactions.json';
-
-console.log(friendsData);
+import transactionData from './components/data/transactions.json';
 
 export const App = () => {
   return (
