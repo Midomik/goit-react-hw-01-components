@@ -1,6 +1,6 @@
-export const TransactionHistoryItem = ({ key_id, type, amount, currency }) => {
+export const TransactionHistoryItem = ({ type, amount, currency }) => {
   return (
-    <tbody key={key_id}>
+    <tbody>
       <tr>
         <td>{type}</td>
         <td>{amount}</td>
